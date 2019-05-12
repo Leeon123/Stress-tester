@@ -222,7 +222,7 @@ func main() {
 		stop++
 		fmt.Println("Used:",times,"seconds",threads,"threads")//report
 		fmt.Println("Total Sent:",bit/1024/1024,"Mb")
-		fmt.Println("Mbps:",bit/1024/1024/times,"Mb/s")
+		fmt.Printf("Mbps: %.2f Mb/s\r\n",float64(bit)/1024/1024/float64(times))
 		fmt.Println("PPS:",count/times,"p/s")
 		//fmt.Println("Connection Error:",error,"times")
 	} else if os.Args[3] == "3" {//http/s flood
