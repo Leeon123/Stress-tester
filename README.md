@@ -1,9 +1,11 @@
 # Stresser
 Golang Server Stress Test Tool 
 
+It is a dos attack tool for testing.
+
 Coded By Leeon123
 
-# Statement
+## Statement
 This tool only used for testing server and education,
 
 not for any criminal activity.
