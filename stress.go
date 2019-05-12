@@ -190,7 +190,7 @@ func main() {
 		stop++
 		fmt.Println("Used:",times,"seconds",threads,"threads")//report
 		fmt.Println("Total Sent:",count,"packets")
-		fmt.Printf("PPS: %s packets/s",math.Floor(float64(count/times+ 0/5)))
+		fmt.Printf("PPS: %.0f packets/s\r\n",math.Floor(float64(count/times+ 0/5)))
 		fmt.Println("Connection Error:",error,"times")
 	} else if os.Args[3] == "2" {//udpflood
 		bit := 0
@@ -224,7 +224,7 @@ func main() {
 		fmt.Println("Used:",times,"seconds",threads,"threads")//report
 		fmt.Println("Total Sent:",bit/1024/1024,"Mb")
 		fmt.Printf("Mbps: %.2f Mb/s\r\n",float64(bit)/1024/1024/float64(times))
-		fmt.Printf("PPS: %s packets/s",math.Floor(float64(count/times+ 0/5)))
+		fmt.Printf("PPS: %.0f packets/s\r\n",math.Floor(float64(count/times+ 0/5)))
 		//fmt.Println("Connection Error:",error,"times")
 	} else if os.Args[3] == "3" {//http/s flood
 		url2 := strconv.Itoa(rand.Intn(10000))//random url
@@ -268,7 +268,7 @@ func main() {
 		stop++
 		fmt.Println("Used:",times,"seconds",threads,"threads")//report
 		fmt.Println("Total Sent:",count,"requests")
-		fmt.Printf("RPS: %s requests/s",math.Floor(float64(count/times+ 0/5)))
+		fmt.Printf("RPS: %.0f requests/s\r\n",math.Floor(float64(count/times+ 0/5)))
 		fmt.Println("Connection Error:",error,"times")
 	}
 }
