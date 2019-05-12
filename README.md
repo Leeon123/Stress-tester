@@ -1,4 +1,4 @@
-# Stresser
+# Stress-tester
 Golang Server Stress Test Tool 
 
 It is a dos attack tool for testing.
@@ -12,13 +12,13 @@ not for any criminal activity.
 
 ## Download:
 
-    git clone https://github.com/Leeon123/Stresser.git
-    cd Stresser
+    git clone https://github.com/Leeon123/Stress-tester.git
+    cd Stress-test
 
 ## Usage:
 
-    go build stresser.go
-    ./stresser host/ip port mode threads seconds
+    go build stress.go
+    ./stress host/ip port mode threads seconds
     
 Mode:
 
