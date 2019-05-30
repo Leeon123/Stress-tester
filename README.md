@@ -1,3 +1,4 @@
+![alt text](https://raw.githubusercontent.com/Leeon123/Stress-tester/master/logo.png)
 # Stress-tester
 Golang Server Stress Test Tool 
 
