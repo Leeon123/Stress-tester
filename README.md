@@ -2,7 +2,9 @@
 # Stress-tester
 Golang Server Stress Test Tool 
 
-It is a dos attack tool for testing.
+It is a tool for me to test my server's waf. Now just share with you. 
+
+It sucks but it help me a lot when i doing testing.
 
 Coded By Leeon123
 
