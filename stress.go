@@ -211,6 +211,7 @@ func main() {
 							error++
 							return
 						}
+						defer s.close()
 						for t := 0; t < 140; t++ {
 							s.SetWriteDeadline(time.Now().Add(2 * time.Second))
 							s.SetReadDeadline(time.Now().Add(2 * time.Second))
@@ -242,6 +243,7 @@ func main() {
 							error++
 							return
 						}
+						defer s.close()
 						for t := 0; t < 140; t++ {
 							s.SetWriteDeadline(time.Now().Add(2 * time.Second))
 							s.SetReadDeadline(time.Now().Add(2 * time.Second))
