@@ -20,6 +20,7 @@ not for any criminal activity.
     cd Stress-test
 
 ## Usage:
+Please use command "ulimit -n 999999" before using it in linux. :)
 
     go build stress.go
     ./stress host/ip port mode threads seconds timeout
