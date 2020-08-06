@@ -6,7 +6,7 @@ It is a tool for me to test my server's waf. Now just share with you.
 
 It sucks but it help me a lot when i doing testing.
 
-Coded By Leeon123
+Improved the all stress test method.
 
 ## Statement
 This tool only used for testing server and education,
