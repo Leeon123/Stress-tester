@@ -12,7 +12,8 @@ Improved the all stress test method.
 This tool only used for testing server and education,
 
 not for any criminal activity.
-
+## Example:
+![Example](https://raw.githubusercontent.com/Leeon123/Stress-tester/master/test.png)
 ## Download:
 
     git clone https://github.com/Leeon123/Stress-tester.git
@@ -21,7 +22,7 @@ not for any criminal activity.
 ## Usage:
 
     go build stress.go
-    ./stress host/ip port mode threads seconds
+    ./stress host/ip port mode threads seconds timeout
     
 Mode:
 
